@@ -1,0 +1,5 @@
+build_system: openembedded
+header:
+  version: 11
+  includes:
+  - meta-truen-base.yaml

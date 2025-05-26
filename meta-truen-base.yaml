@@ -1,0 +1,15 @@
+header:
+  version: 11
+
+
+repos:
+  meta-hailo-soc:
+    url: "https://github.com/hailo-ai/meta-hailo-soc.git"
+    refspec: kirkstone
+    layers:
+      meta-hailo-bsp:
+      meta-hailo-linux:
+
+machine: core-image-truen
+target: core-image-truen
+distro: poky
